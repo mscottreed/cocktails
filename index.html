@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cocktail Book</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <h1>🍸 Cocktail Book</h1>
+  <input type="search" id="search" placeholder="Search a name or an ingredient…" autocomplete="off">
+</header>
+
+<nav class="filters" id="filters"></nav>
+
+<main>
+  <p class="count" id="count"></p>
+  <ul class="grid" id="grid"></ul>
+  <p class="empty" id="empty" hidden>Nothing matches those filters.</p>
+</main>
+
+<dialog id="recipe">
+  <button class="close" id="close" aria-label="Close">&times;</button>
+  <div id="recipe-body"></div>
+</dialog>
+
+<script src="data/cocktails.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
