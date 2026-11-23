@@ -51,7 +51,7 @@ rather than by season or occasion.
 
 ## Current contents
 
-58 drinks in eight categories.
+64 drinks in nine categories.
 
 **Spritz** — Aperol, Hugo, Limoncello, Select, Lillet Rosé, Lillet Blanc, Kir Royale, Italicus, Gentian.
 **Negroni** — Negroni, Boulevardier, Sbagliato, White (Luxardo Bitter Bianco), Blonde (Suze),
@@ -61,13 +61,14 @@ Pink (Sweet Gwendoline), Amber (Cynar), Orange (Gran Classico + Campari), Italic
 Final Ward.
 All 0.75 oz × 4, shaken and served up.
 **Spirit-Forward** — Manhattan, Old Fashioned, Mint Julep, Sazerac, Vieux Carré, El Presidente,
-Black Ship, Monte Carlo, Black Manhattan, Kentucky Godfather. Spirit-led, no citrus in the glass.
+Black Ship, Monte Carlo, Black Manhattan, Kentucky Godfather, Bamboo. Spirit-led, no citrus in the glass.
 **Martini** — Espresso, Lychee, Vesper, Grapefruit, Dirty, French. Grouped by how you'd order them
 rather than by composition — most have no gin or vermouth in them at all.
 **Sours** — Daiquiri, Margarita, Whiskey Sour, Pisco Sour, French 75, Gimlet, Sidecar, Bramble, Amaretto Sour,
-Brandy Crusta, Champs-Élysées, Jungle Bird.
-**Highballs** — Gin & Tonic, Greyhound, Paloma, Jameson and Ginger, Bourbon and Ginger.
+Brandy Crusta, Champs-Élysées, Jungle Bird, Brown Derby, Flor de Jerez, Tart Cherry Whiskey Sour.
+**Highballs** — Gin & Tonic, Greyhound, Paloma, Jameson and Ginger, Bourbon and Ginger, Cherry Bourbon Buck.
 **Hot Drinks** — Irish Coffee.
+**Cobblers** — Sherry Cobbler.
 
 Categories are drink families, deliberately not base spirits — the Base filter already covers
 that ground.

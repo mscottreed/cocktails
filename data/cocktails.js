@@ -909,6 +909,33 @@ window.COCKTAILS = [
     ]
   },
   {
+    id: "bamboo",
+    name: "Bamboo",
+    category: "Spirit-Forward",
+    base: "Sherry",
+    method: "Stir",
+    glass: "Coupe",
+    ice: "Served up",
+    blurb: "Sherry and dry vermouth, half and half. Crisp, savory and about as strong as a glass of wine.",
+    ingredients: [
+      { amount: "1.5 oz", name: "Dry sherry", note: "fino or amontillado" },
+      { amount: "1.5 oz", name: "Dry vermouth", note: "Dolin Dry or Noilly Prat" },
+      { amount: "1 dash", name: "Orange bitters" },
+      { amount: "1 dash", name: "Angostura bitters" }
+    ],
+    steps: [
+      "Combine everything in a mixing glass with ice.",
+      "Stir until well chilled.",
+      "Strain into a chilled coupe."
+    ],
+    garnish: "Lemon twist",
+    notes: "Attributed to Louis Eppinger at the Grand Hotel in Yokohama in the 1890s, and probably a dry riff on the Adonis, which uses sweet vermouth. Fino makes it bone-dry and saline; amontillado makes it nuttier and rounder. Joaquín Simó's version adds a barspoon of rich syrup, which is worth trying with fino but unnecessary with an amontillado/medium-dry blend, which brings its own sweetness. Both the sherry and the vermouth are wine, so refrigerate them once open.",
+    sources: [
+      { label: "Difford's Guide", url: "https://www.diffordsguide.com/cocktails/recipe/18976/bamboo-diffords-classic-recipe" },
+      { label: "PUNCH", url: "https://punchdrink.com/recipes/bamboo/" }
+    ]
+  },
+  {
     id: "espresso-martini",
     name: "Espresso Martini",
     category: "Martini",
@@ -1415,6 +1442,86 @@ window.COCKTAILS = [
     ]
   },
   {
+    id: "brown-derby",
+    name: "Brown Derby",
+    category: "Sours",
+    base: "Bourbon",
+    method: "Shake",
+    glass: "Coupe",
+    ice: "Served up",
+    blurb: "Bourbon, grapefruit and honey. Three ingredients, rounder than a whiskey sour.",
+    ingredients: [
+      { amount: "1.5 oz", name: "Bourbon" },
+      { amount: "0.75 oz", name: "Grapefruit juice", note: "fresh" },
+      { amount: "0.75 oz", name: "Honey syrup", note: "2:1 honey to water" }
+    ],
+    steps: [
+      "Combine everything in a shaker with ice.",
+      "Shake until cold.",
+      "Strain into a chilled coupe."
+    ],
+    garnish: "Grapefruit twist",
+    notes: "Created at Billy Wilkerson's Vendôme Club on the Sunset Strip and named for the nearby Brown Derby restaurant, the one built in the shape of a hat. The honey syrup is 2:1, so it's richer than simple syrup; to make it, stir two parts honey into one part warm water until it loosens.",
+    sources: [
+      { label: "PUNCH", url: "https://punchdrink.com/recipes/brown-derby/" }
+    ]
+  },
+  {
+    id: "flor-de-jerez",
+    name: "Flor de Jerez",
+    category: "Sours",
+    base: "Sherry",
+    liqueurs: ["Apricot Liqueur"],
+    method: "Shake",
+    glass: "Coupe",
+    ice: "Served up",
+    blurb: "A sherry sour with a shot of rum and a hint of apricot. Nutty, bright and light.",
+    ingredients: [
+      { amount: "1.5 oz", name: "Amontillado sherry" },
+      { amount: "0.5 oz", name: "Aged rum", note: "Appleton Estate" },
+      { amount: "0.25 oz", name: "Apricot liqueur", note: "Rothman & Winter" },
+      { amount: "0.75 oz", name: "Lemon juice", note: "fresh" },
+      { amount: "0.5 oz", name: "Cane syrup", note: "or simple syrup" },
+      { amount: "1 dash", name: "Angostura bitters" }
+    ],
+    steps: [
+      "Combine everything in a shaker with ice.",
+      "Shake until cold.",
+      "Strain into a chilled coupe."
+    ],
+    garnish: "None",
+    notes: "Joaquín Simó, Death & Co, 2009. The sherry is the base and the rum is the modifier, so it's much lighter than it looks. With an amontillado/medium-dry blend, start the syrup at 0.25 oz and taste, because the blend is already slightly sweet. No apricot liqueur: use a heaping barspoon of apricot jam instead, cut the syrup to 0.25 oz or skip it, shake hard, and double-strain to catch the fruit. Peach liqueur is the next-closest swap, then an orange liqueur.",
+    sources: [
+      { label: "Difford's Guide", url: "https://www.diffordsguide.com/cocktails/recipe/8406/flor-de-jerez" },
+      { label: "Death & Co", url: "https://deathandcompanymarket.com/blogs/recipes/flor-de-jerez" }
+    ]
+  },
+  {
+    id: "tart-cherry-whiskey-sour",
+    name: "Tart Cherry Whiskey Sour",
+    category: "Sours",
+    base: "Bourbon",
+    method: "Shake",
+    glass: "Coupe",
+    ice: "Served up",
+    blurb: "A whiskey sour with tart cherry juice. Deep red, a little jammy, still sharp.",
+    ingredients: [
+      { amount: "2 oz", name: "Bourbon", note: "or rye" },
+      { amount: "1 oz", name: "Tart cherry juice", note: "100% Montmorency, not concentrate" },
+      { amount: "0.5 oz", name: "Lemon juice", note: "fresh" },
+      { amount: "0.5–0.75 oz", name: "Simple syrup" },
+      { amount: "1", name: "Egg white", note: "optional" }
+    ],
+    steps: [
+      "Combine everything in a shaker. If using egg white, dry-shake without ice first to build the foam.",
+      "Add ice and shake hard until cold.",
+      "Strain into a chilled coupe, or over fresh ice in an old-fashioned glass."
+    ],
+    garnish: "Brandied cherry or a lemon twist",
+    notes: "House recipe with no published source. The cherry juice takes over part of the lemon's job, so the lemon drops from the usual 0.75 oz to 0.5 oz. Use the full 0.75 oz of syrup if the juice is unsweetened, or less if it is a sweetened blend. If you only have concentrate, dilute it first (about 1 part to 7 parts water) or use roughly a quarter as much.",
+    sources: []
+  },
+  {
     id: "greyhound",
     name: "Greyhound",
     category: "Highballs",
@@ -1537,5 +1644,56 @@ window.COCKTAILS = [
     garnish: "The squeezed lime wedge",
     notes: "Same 1:3 build as the Jameson. Ginger beer in place of the ale makes it drier and much spicier, closer to a Kentucky Mule. Two dashes of Angostura is the other common upgrade, which gets you into Horsefeather territory.",
     sources: []
+  },
+  {
+    id: "cherry-bourbon-buck",
+    name: "Cherry Bourbon Buck",
+    category: "Highballs",
+    base: "Bourbon",
+    method: "Build",
+    glass: "Highball glass",
+    ice: "Filled with ice",
+    blurb: "Bourbon, tart cherry and ginger beer. Tall, spicy, a little sour.",
+    ingredients: [
+      { amount: "1.5 oz", name: "Bourbon" },
+      { amount: "1.5 oz", name: "Tart cherry juice", note: "100% Montmorency, not concentrate" },
+      { amount: "0.25 oz", name: "Lime juice", note: "fresh" },
+      { amount: "3 oz", name: "Ginger beer" }
+    ],
+    steps: [
+      "Fill a highball glass with ice.",
+      "Add the bourbon, cherry juice and lime juice.",
+      "Top with ginger beer and stir once."
+    ],
+    garnish: "Lime wedge",
+    notes: "House recipe with no published source. A buck is a spirit with citrus and ginger, the same family as the Moscow Mule. Ginger beer keeps it dry and spicy; ginger ale makes it softer and sweeter, closer to the Bourbon and Ginger.",
+    sources: []
+  },
+  {
+    id: "sherry-cobbler",
+    name: "Sherry Cobbler",
+    category: "Cobblers",
+    base: "Sherry",
+    method: "Shake",
+    glass: "Highball glass",
+    ice: "Packed crushed ice",
+    blurb: "Sherry, sugar and orange shaken over crushed ice. Low proof, very cold, and the drink that made the straw popular.",
+    ingredients: [
+      { amount: "3.5 oz", name: "Amontillado sherry" },
+      { amount: "0.5 oz", name: "Simple syrup", note: "0.25 oz with a medium-dry blend" },
+      { amount: "2–3", name: "Orange half-wheels" }
+    ],
+    steps: [
+      "Put the sherry, syrup and orange half-wheels in a shaker with ice.",
+      "Shake hard so the ice breaks up the orange and releases the juice and peel oil.",
+      "Strain into a glass packed with crushed ice, or dump the whole thing in, orange and all.",
+      "Top with more crushed ice and add a straw."
+    ],
+    garnish: "Fresh orange half-wheel, seasonal berries and a mint sprig",
+    notes: "The cobbler was the most popular American drink of the mid-1800s, and Jerry Thomas's 1862 version is just sherry, sugar and two or three orange slices over shaved ice. A half-wheel is a quarter-inch crosswise slice of orange cut in half. Amontillado gives it a nutty backbone; fino makes it leaner and drier; Difford's richer modern version swaps in oloroso with a little Pedro Ximénez and maraschino.",
+    sources: [
+      { label: "Sherry cobbler", url: "https://en.wikipedia.org/wiki/Sherry_cobbler" },
+      { label: "PUNCH", url: "https://punchdrink.com/recipes/sherry-cobbler/" }
+    ]
   }
 ];
